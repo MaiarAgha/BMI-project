@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="next">Next</string>
+    <string name="bMI_analyser">BMI Analyser</string>
+    <string name="Welcome_Back">Welcome Back</string>
+    <string name="if_you_already_an_account_login">if you already an account , login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="LogIn">LogIn</string>
+    <string name="You_Dont_Have_An_Account">You Dont Have An Account?</string>
+    <string name="Sign_up">Sign up</string>
+    <string name="Create_New_Account">Create New Account</string>
+    <string name="if_you_dont_already_have_account">if you dont already have account</string>
+
+
+</resources>

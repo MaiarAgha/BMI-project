@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.MyApplication" >
+        <activity
+            android:name="com.example.myapplication.Edit_Food_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.Food_List_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.Add_food_details_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.record_Activity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.home_Activity22"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.rounded_rectangle"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.homeActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.completinformation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.Registration"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.login"
+            android:exported="false" />
+        <activity
+            android:name="com.example.myapplication.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

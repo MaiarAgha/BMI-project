@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Food_List_Activity"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Analyser"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/Blue"
+        android:padding="11dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food List"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/foodList_rv_foods"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp"/>
+
+
+    </LinearLayout>
+

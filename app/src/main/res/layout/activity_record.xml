@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Analyser"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/Blue"
+        android:padding="11dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Record"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="75dp"
+            android:text="Weight"
+            android:textColor="@color/Blue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="65dp"
+
+            android:background="@drawable/rounded_rectangle"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/rounded_rectangle"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="80dp"
+
+            android:background="@drawable/rounded_rectangle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kg"
+            android:textSize="19dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="7dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:text="Lenght"
+            android:textColor="@color/Blue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="65dp"
+
+            android:background="@drawable/rounded_rectangle"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_rectangle"
+            />
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="40dp"
+
+            android:background="@drawable/rounded_rectangle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textSize="19dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="7dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:text="Date "
+            android:textColor="@color/Blue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="14dp"
+
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="65dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_rectangle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="35dp"
+            android:text="Time "
+            android:textColor="@color/Blue"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="14dp"
+
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_rectangle"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_margin="55dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/Blue"
+        />
+
+</LinearLayout>

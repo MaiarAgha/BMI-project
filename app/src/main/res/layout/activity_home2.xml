@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Analyser"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/Blue"
+        android:padding="11dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complete Your"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Infotmation"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/home2_tv_Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Gender"
+        android:textColor="@color/Blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="14dp"/>
+
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/home2_rb_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textStyle="bold"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="39dp"
+        android:checked="true">
+
+    </RadioButton>
+    <RadioButton
+        android:id="@+id/home2_rb_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="39dp"
+       >
+
+    </RadioButton>
+
+</RadioGroup>
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/home2_tv_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Weight"
+        android:textColor="@color/Blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"/>
+<TextView
+    android:id="@+id/home2_tv_minus"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:text="-"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:textColor="@color/Blue"
+    android:layout_marginTop="53dp"
+    android:layout_marginLeft="65dp"
+
+    android:background="@drawable/rounded_rectangle"
+    />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/rounded_rectangle"
+        />
+    <TextView
+        android:id="@+id/home2_tv_plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/Blue"
+        android:layout_marginTop="53dp"
+
+        android:background="@drawable/rounded_rectangle"
+        />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="kg"
+    android:textSize="19sp"
+    android:textColor="@color/Blue"
+    android:layout_marginTop="53dp"
+    android:layout_marginLeft="7dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/home2_tv_Lenght"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:text="Lenght"
+            android:textColor="@color/Blue"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"/>
+        <TextView
+            android:id="@+id/home2_tv_minus1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="65dp"
+
+            android:background="@drawable/rounded_rectangle"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:textSize="25sp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/rounded_rectangle"
+            />
+        <TextView
+            android:id="@+id/home2_tv_plus1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="53dp"
+
+            android:background="@drawable/rounded_rectangle"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textSize="19dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="53dp"
+            android:layout_marginLeft="7dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/home2_tv_Datebd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:text="Date Of Birth"
+            android:textColor="@color/Blue"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="14dp"
+
+            />
+        <TextView
+            android:id="@+id/home2_tv_date"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:textSize="25sp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/Blue"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/rounded_rectangle"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/home2_btn_SaveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_margin="55dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/Blue"
+        />
+
+</LinearLayout>
